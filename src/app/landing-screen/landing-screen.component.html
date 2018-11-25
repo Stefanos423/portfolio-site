@@ -1,0 +1,16 @@
+<div
+    [@simpleFadeAnimation]='show ? "shown" : "notShown"'
+    (@simpleFadeAnimation.done)='simpleFadeDone()'
+    *ngIf='!hidden'>
+    <div class='logo'>
+        <img src="./assets/logo_start_page.png" alt="Huntsman Logo">
+    </div>
+    <div class='footer'>
+        <span class='name'>
+            by George Kolokas
+        </span>
+        <div>
+            <img class='rotate' src="./assets/circle.png" alt="circle">
+        </div>
+    </div>
+</div>
