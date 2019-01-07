@@ -1,11 +1,20 @@
-<div class='main-screen-holder'>
-    <div class='photo gallery ripple' [@simpleFadeAnimation]='loading ? "notShown" : "shown"'>
+<div class='main-screen-holder' [ngClass]='loading ?  "loading" : "not-loading"'>
+    <div
+        class='photo gallery ripple'
+        [@simpleFadeAnimation]='loading ? "notShown" : "shown"'
+        (click)='onClick("gallery")'>
         <div class='text'>GALLERY</div>
     </div>
-    <div class='photo about-me ripple' [@simpleFadeAnimation]='loading ? "notShown" : "shown"'>
+    <div
+        class='photo about-me ripple'
+        [@simpleFadeAnimation]='loading ? "notShown" : "shown"'
+        (click)='onClick("about")'>
         <div class='text'>ABOUT ME</div>
     </div>
-    <div class='photo contact ripple' [@simpleFadeAnimation]='loading ? "notShown" : "shown"'>
+    <div
+        class='photo contact ripple'
+        [@simpleFadeAnimation]='loading ? "notShown" : "shown"'
+        (click)='onClick("contact")'>
         <div class='text'>CONTACT</div>
     </div>
 </div>

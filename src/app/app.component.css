@@ -1,6 +1,6 @@
 .underlay {
     background-color: black;
-    position:fixed;
+    position:absolute;
     padding:0;
     margin:0;
 

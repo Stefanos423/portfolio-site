@@ -1,0 +1,22 @@
+.contact-holder {
+    height: 100vh;
+    background-color: black;
+}
+
+.email-container {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30%;
+}
+
+.field {
+    margin-top: 25%;
+}
+
+button {
+    width: 25%;
+    margin-left: 75%;
+    color: rgba(255, 255, 255, 0.7);
+}
