@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'hussarbd';
+    src:
+        url('../../assets/Fonts/hussarbd.otf') format('opentype'),
+        url('../../assets/Fonts/hussarbd.ttf') format('truetype');
+}
+
 .about-me-holder {
     display: flex;
     flex-direction: row;
@@ -13,4 +20,11 @@
     border-width: 2px;
     border-color: white;
     margin-top: 2.5%;
+    color: white;
+    text-align: justify;
+    font-family: 'hussarbd';
+
+    * {
+        margin: 15px;
+    }
 }
