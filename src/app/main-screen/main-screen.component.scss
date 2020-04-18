@@ -58,23 +58,17 @@
 
     
     &.gallery:hover {
-        background: url('../../assets/gallery_hovered.png');
-        background-size: cover;
-        background-position-x: center; 
+        box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
         cursor: pointer;
     }
 
     &.about-me:hover {
-        background: url('../../assets/about_me_hovered.png');
-        background-size: cover;
-        background-position-x: center; 
+        box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
         cursor: pointer;
     }
 
     &.contact:hover {
-        background: url('../../assets/contact_hovered.png');
-        background-size: cover;
-        background-position-x: center; 
+        box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.3); 
         cursor: pointer;
     }
 
